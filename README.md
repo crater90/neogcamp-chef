@@ -7,6 +7,6 @@ This is a simple api based app which converts sentences/words to swedish chef ac
 ## Tech Stack
 <ol>
 <li>Html</li>
-<li>Css</li>
+<li>TailwindCss</li>
 <li>Javascript</li>
 </ol>
