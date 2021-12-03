@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swedish Chef Talks</title>
+</head>
+
+<body style="font-family: 'Lora', serif;" class="flex flex-col mx-auto max-w-6xl min-h-screen bg-yellow-200">
+    <nav class="text-center p-5 text-3xl">
+        <h1 class="text-yellow-700 font-bold">Swedish Chef Talks</h1>
+    </nav>
+    <main class="p-5 flex flex-col justify-center items-center">
+        <textarea id="txt-input"
+            class="p-3 border border-yellow-700 rounded-md w-2/4 h-24"
+            placeholder="Put anything in English and we will convert it to Banana language"></textarea>
+        <button class="mt-5 px-4 py-2 rounded-md border bg-gray-100 transition transform ease-in-out duration-150 hover:scale-110 hover:bg-yellow-700 hover:text-white" id="btn-translate">Translate to Swedish Chef Language</button>
+
+        <div class="mt-5"> Output will come here 👇 </div>
+        <div class="mt-2 p-3 flex h-24 border border-yellow-700 rounded-md w-2/4 bg-white" id="output"></div>
+    </main>
+    <script src="app.js" type="text/javascript"></script>
+    <footer class="flex flex-col p-4 text-center justify-center items-center">
+        <h6 class="font-bold text-2xl text-yellow-700">About</h6>
+        <p class="max-w-3xl">
+            Want to know what's in mind of a swedish chef, this is the perfect converter. The Swedish Chef is a Muppet character that appeared on The Muppet Show. The Swedish Chef does not speak any known language, but his nonsense words are so widley interpreted as
+            Swedish-sounding.
+        </p>
+    </footer>
+</body>
+
+</html>
